@@ -3,6 +3,7 @@
     <Header />
     <TxPool />
     <Blocks />
+    <Footer />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from './components/Header.vue'
 import TxPool from './components/TxPool.vue'
 import Blocks from './components/Blocks.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     TxPool,
-    Blocks
+    Blocks,
+    Footer
   }
 }
 </script>

@@ -36,19 +36,19 @@ export default {
     },
     methods: {
         getTxPool() {
-
-            axios({
-                method: 'get',
-                url: 'http://localhost:26968/get_transaction_pool',
-                withCredentials: false,
-                headers:{'Access-Control-Allow-Headers': '*',Authorization:'Basic dXNlcm5hbWU6cGFzc3dvcmQ=',auth:{user:'useranme',pass:'password'}}
-            })
-            .then((res) => {
-                console.log(res.data)
-            })
-            .catch((error) => {
-                console.error(error)
-            });
+            return [];
+            // axios({
+            //     method: 'get',
+            //     url: 'http://localhost:26968/get_transaction_pool',
+            //     withCredentials: false,
+            //     headers:{'Access-Control-Allow-Headers': '*',Authorization:'Basic dXNlcm5hbWU6cGFzc3dvcmQ=',auth:{user:'useranme',pass:'password'}}
+            // })
+            // .then((res) => {
+            //     console.log(res.data)
+            // })
+            // .catch((error) => {
+            //     console.error(error)
+            // });
         }
     }
 }
