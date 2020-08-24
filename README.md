@@ -1,4 +1,4 @@
-# vue-experiments
+# vue-etn-blockexplorer
 
 ## Project setup
 ```
